@@ -13,7 +13,7 @@ public class B_2292 {
 		if(N == 1) {
 			System.out.println(1);
 		}else {
-			while(range < N) {
+			while(range <= N) {
 				range = range + (6 * count);
 				count++;
 			}
