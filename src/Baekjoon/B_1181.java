@@ -28,7 +28,6 @@ public class B_1181 {
         }
 		
 		Collections.sort(list, Comparator.comparingInt(String::length).thenComparing(Comparator.naturalOrder()));
-		
 		for(String word : list) {
 			System.out.println(word);
 		}
